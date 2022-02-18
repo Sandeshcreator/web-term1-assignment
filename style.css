@@ -6,12 +6,12 @@
 }
 .header{
 	background-color: red;
-	height: 500px;
+	height: 450px;
 	width: 100%;
 }
 
 nav{
-	height: 70px;
+	height: 100px;
 	width: 100%;
 }
 label.logo{
@@ -53,31 +53,101 @@ label.toggle{
 	 float: right;
 	 color: white;
 	 line-height: 60px;
-	 margin-right: 40px;
+	 margin-right: 40px	;
 	 display: none;
 	 cursor: pointer;
 }
-.header-message h1{
+.header-message h6{
+	text-align: center;
 	color: white;
-	padding: 261px 568px 20px 597px;
 
 }
-.header-message h4{
-	color: blue;
-	border: 1px solid darkblue;
-
-}
-.header-message button{
-	margin-left: 730px;
-	padding: 10px;
-	border-radius: 15px;
-	border-color: blueviolet;
+.header-message h2{
+	text-align: center;
+	color: white;
+	margin-top: 80px;
+	font-size: 65px;
 
 }
  
+.header-message h1{
+	
+	color: white;
+	/*padding: 75px 548px 17px 599px;*/
+	text-align: center;
+	padding-top: 20px;
+
+}
 
 
-@media only screen and (max-width: 800px){
+ 
+.header-message button{
+	/*margin-left: 730px;
+	padding: 10px;*/
+	border-radius: 15px;
+	border-color: blueviolet;
+	justify-content: center;
+}
+.myinfo{
+
+	background-color: green;
+	opacity: 0.8;
+	display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+
+}
+.myself{
+	background-color:hotpink ;
+	font-size: 30px;
+  	text-align: center;
+	 
+}
+.purpose{
+	background-color:hotpink ;
+ 	font-size: 30px;
+  	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+footer{
+	text-align: center;
+	background: blueviolet;
+	height: 250px;
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
 
 	label.logo{
 	font-size: 30px;
@@ -117,7 +187,18 @@ label.toggle{
 	nav ul:checked {
 		left: 0px;
 	}
+	 
+	.header-message h1{
+		margin-left: 10px;
+    	padding: 0px;
+    	margin-top: 252px;
 
+	}
+	.header-message button{
+		margin-left: 130px;
+		font-size: 30px;	
+		padding: 0px;	
+	}
 	
 
 
