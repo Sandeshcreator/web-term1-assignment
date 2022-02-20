@@ -12,7 +12,9 @@
 
 nav{
 	height: 100px;
-	width: 100%;
+	width: 98%;
+	margin-left: 5px;
+
 }
 label.logo{
 	color: white;
@@ -152,6 +154,13 @@ footer{
 	label.logo{
 	font-size: 30px;
 	padding-left: 20px;
+
+	}
+
+	nav{
+	height: 100px;
+	width: 100%;
+	margin-left: 5px;
 
 	}
 
