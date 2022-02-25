@@ -14,13 +14,15 @@ nav{
 	height: 100px;
 	width: 98%;
 	margin-left: 5px;
+	line-height: 60px;
 
 }
-label.logo{
+section.logo{
 	color: white;
 	font-size: 30px;
 	padding-left: 50px;
 	line-height: 60px;
+	float: left ;
 
 }
 nav ul{
@@ -50,7 +52,7 @@ nav ul li a:hover {
 	 cursor: pointer;
 }
 
-label.toggle{
+section.toggle{
 	 font-size: 30px;
 	 float: right;
 	 color: white;
@@ -84,8 +86,6 @@ label.toggle{
 
  
 .header-message button{
-	/*margin-left: 730px;
-	padding: 10px;*/
 	border-radius: 15px;
 	border-color: blueviolet;
 	justify-content: center;
@@ -128,7 +128,12 @@ label.toggle{
 
 
 
+ 
 
+
+
+
+ 
 
  
 footer{
@@ -151,7 +156,7 @@ footer{
 
 @media only screen and (max-width: 1000px){
 
-	label.logo{
+	section.logo{
 	font-size: 30px;
 	padding-left: 20px;
 
@@ -168,7 +173,7 @@ footer{
 	font-size: 15px;
 	}
 
-	label.toggle{
+	section.toggle{
 	display: block;
 	}
 
@@ -209,6 +214,24 @@ footer{
 		padding: 0px;	
 	}
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
 
 
 
