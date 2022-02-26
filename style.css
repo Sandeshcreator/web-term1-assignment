@@ -127,13 +127,60 @@ section.toggle{
 
 
 
+.contact {
+  width: 80%;
+  margin: auto;
+  max-width: 50%;
+  padding: 50px;
+  background-color: skyblue; 
+  opacity: 0.8;
 
+}
+
+
+.contact h1 {
+    text-align: center;
+     }
+
+
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 25px;
+   }
  
 
 
+textarea {
+  display: block;
+  padding: 20px;
+  width: 70%;
+  border: 1px solid rebeccapurple;
+  font-size: 20px; }
 
-
+input{
+	width: 50%;
+	height: 20%;
+	font-size: 25px;
+}
  
+.button {
+  width: auto;
+  margin-top: 30px;
+  background: forestgreen;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 42%;
+ 
+
+    }
+
+
+
 
  
 footer{
