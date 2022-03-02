@@ -122,17 +122,11 @@ section.toggle{
   background-size: cover;
   background-color: red;
  height:800px; 
-  width:50%;}
+ 
 
-
-
-.portfolio{
-	background-color: #361500;
-	display: grid;
-	grid-template-columns: auto auto auto auto auto;
-	height: 350px;
-}
-
+ 
+  
+  }
 
 .pic {
   border: 1px solid #ccc;
@@ -288,17 +282,7 @@ footer{
 		left: 0px;
 	}
 	 
-	
 
-
-
-	.header-message  {
-	 
-	background-color: red;
-	padding: auto;
-	margin: auto;
-	width: 60%;
-   }
 	
 
    .header-message button{
@@ -310,6 +294,27 @@ footer{
    }
 
 
+	.header-message  {
+	 
+	background-color: red;
+	padding: auto;
+	margin: auto;
+	width: 60%;
+   }
+	
+
+
+   }
+
+.myinfo-left img {
+ background-size: cover;
+ background-color: red;
+ height:800px; 
+  width:10%;
+
+ 
+  
+  }
 
 .myinfo {
   display: grid;
