@@ -9,6 +9,7 @@
 	background-color: #2C3333;
 	height: 450px;
 	width: 100%;
+	margin-bottom: 3px;
 }
 
 nav{
@@ -26,11 +27,7 @@ section.logo{
 	float: left ;
 
 }
-.logo a {
-	color: white;
-	 
-
-}
+ 
 
 nav ul{
 	float: right;
@@ -45,7 +42,6 @@ nav ul li{
 	display: inline-block;
 }
 nav ul li a{
-	color: white;
 	font-size: 17px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -59,7 +55,7 @@ nav ul li a:hover {
 	 cursor: pointer;
 }
 
-section.toggle{
+section.hamb{
 	 font-size: 30px;
 	 float: right;
 	 color: white;
@@ -95,8 +91,8 @@ section.toggle{
 	background-color:green;
 	border-radius: 15px;
 	align-content: center;
-	margin-left: 40%;
-	margin-top: 1%;
+	margin-left: 41%;
+	margin-top: 3%;
 	padding: 2%;
 }
 
@@ -214,11 +210,23 @@ input{
   border-radius: 20px;
   padding: 10px;
   margin-left: 42%;
- 
-
-    }
+  }
 
 
+
+.blog{	
+  
+  width: 90%;
+  margin: auto;
+
+}
+.daily-exp{
+  background-color: #7952B3;
+  margin: auto;
+  width: 80%;
+  font-size: 170%;
+  column-count: 3;
+}
 
 
  
@@ -227,6 +235,7 @@ footer{
 	background: #2666CF;
 	height: 250px;
 	padding-top: 40px;
+	margin-top: 3px;
 }
 
 
@@ -241,7 +250,10 @@ footer{
 
 
 @media only screen and (max-width: 800px){
-
+	body{
+		width: 99%;
+	}
+	 
 	section.logo{
 	font-size: 30px;
 	padding-left: 20px;
@@ -259,35 +271,41 @@ footer{
 	font-size: 15px;
 	}
 
-	section.toggle{
+	section.hamb{
 	display: block;
 	}
 
 	nav ul{
 	position: fixed;
 	width: 100%;
-	height: 100vh;
+	height: 55%;
+	display: block;
 	top: 50px;
-	left: -200%;
-	background: red;
+	left: -110%;
+	background: blue;
 	text-align: center;
 	transition: all .5s;
 
 	}
 	nav ul li {
-		display: block;
+	display: block;
 	}
 	nav ul li a {
-		font-size: 20px;
+	font-size: 20px;
 	}
 	nav ul li a:hover {
-		background: none;
-		color: white;
-	}
-	nav ul:checked {
-		left: 0px;
+	background: none;
+	color: white;
 	}
 	 
+	.hamb:checked {
+  	left: 0px;
+	}
+
+	.toggle:checked {
+  	left: 0px;
+	}
+
 	
 
 
@@ -312,11 +330,11 @@ footer{
 
 
 .myinfo {
-  display: grid;
-  grid-template:  auto auto;
-  justify-content: space-around;
-  width:100%;
-  margin: auto;
+	 display: grid;
+	 grid-template:  auto auto;
+	 justify-content: space-around;
+	 width:100%;
+	 margin: auto;
  
    } 
  
@@ -329,8 +347,7 @@ footer{
    }
 
    .myinfo-left   {
- 
- width:200px; 
+  width:200px; 
   }
 
 .myinfo-left img {
@@ -368,5 +385,20 @@ footer{
   padding: 5px;
   text-align: center;
 }
+
+.blog{	
+  
+  width: 100%;
+  margin: auto;
+
+}
+.daily-exp{
+  background-color: #7952B3;
+  margin: auto;
+  width: 80%;
+  font-size: 170%;
+  column-count: 1;
+}
+
  
 }
