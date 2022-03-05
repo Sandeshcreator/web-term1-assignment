@@ -316,7 +316,7 @@ footer h4{
 	font-size: 15px;
 	}
 
-	 
+	 /*header style*/
 
 	nav ul{
 	width: 100%;
@@ -339,42 +339,6 @@ footer h4{
 	background: none;
 	color: white;
 	}
-
-	.checkbtn{
-    display: block;
-    float: right;
-    margin-right: 40px;
-    line-height: 20px;
-}
-.navbar{
-	 	text-align: left;
-		margin-top: 20px;
-    position: fixed;
-    height: 100%;
-    width: 60%;        
-    left: -90%;
-    background-color: blue;    
-    display: flex;
-    flex-direction: column;
-    transition: all .10s;
-}
-.navbar li{
-    display: block;
-  
-}
-#check:checked ~ .navbar{
-	position: fixed;
-    left:  0;
-
-}
-	
-
-
-
-
-
-
-
 	.header-message  {
 	 
 	background-color: red;
@@ -421,8 +385,38 @@ footer h4{
   
   
   }
+  /*hamburger style */
 
+	.checkbtn{
+    display: block;
+    float: right;
+    margin-right: 40px;
+    line-height: 20px;
+}
+.navbar{
+	 	text-align: left;
+		margin-top: 20px;
+    position: fixed;
+    height: 100%;
+    width: 60%;        
+    left: -90%;
+    background-color: blue;    
+    display: flex;
+    flex-direction: column;
+    transition: all .10s;
+}
+.navbar li{
+    display: block;
+  
+}
+#check:checked ~ .navbar{
+	position: fixed;
+    left:  0;
 
+}
+	
+
+/*portfolio style */
 
 .portfolio{
 	background-color: #361500;
@@ -450,6 +444,8 @@ footer h4{
   padding: 5px;
   text-align: center;
 }
+
+/*blog style */
 
 .blog{	
   
