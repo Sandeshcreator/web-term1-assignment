@@ -274,8 +274,13 @@ border-radius: 15px;
 footer{
 	text-align: center;
 	background: #2666CF;
-	height: 250px;
+	height: 200px;
 	padding-top: 40px;
+	margin-top: 3px;
+}
+footer h4{
+	text-align: center;
+	padding-top: 15px;
 	margin-top: 3px;
 }
 
