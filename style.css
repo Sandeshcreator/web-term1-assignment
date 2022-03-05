@@ -5,20 +5,7 @@
 	 text-decoration: none;
 	 color: white;
 }
-.header{
-	background-color: #2C3333;
-	height: 450px;
-	width: 100%;
-	margin-bottom: 3px;
-}
-
-nav{
-	height: 100px;
-	width: 98%;
-	margin-left: 5px;
-	line-height: 60px;
-
-}
+/*Logo*/
 section.logo{
 	color: white;
 	font-size: 30px;
@@ -27,8 +14,14 @@ section.logo{
 	float: left ;
 
 }
- 
+	/*Navbar design*/
+nav{
+	height: 100px;
+	width: 98%;
+	margin-left: 5px;
+	line-height: 60px;
 
+}
 nav ul{
 	float: right;
 	line-height: 60px;
@@ -49,27 +42,30 @@ nav ul li a{
 nav ul li a:hover {
 	font-size: 25px;
 }
-.toggle{
-	  
-	 display: none;
-	 cursor: pointer;
+/* Hamburger icon*/ 
+ 
+.checkbtn{
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
 }
-
-section.hamb{
-	 font-size: 30px;
-	 float: right;
-	 color: white;
-	 line-height: 60px;
-	 margin-right: 40px	;
-	 display: none;
-	 cursor: pointer;
+#check{
+    display: none;
+}
+/*Header*/
+.header{
+	background-color: #2C3333;
+	height: 450px;
+	width: 100%;
+	margin-bottom: 3px;
 }
 .header-message  {
 	 background-color: black;
 	 width: 30%;
 	 margin-top: 5%;
-    margin: auto;
-    padding: 2%;
+   margin: auto;
+   padding: 2%;
+   height: 46%;
 
 }
 .header-message h2{
@@ -87,16 +83,18 @@ section.hamb{
 
 }
 
-.header-message button{
+.started{
+	border: 1px solid green;
 	background-color:green;
 	border-radius: 15px;
 	align-content: center;
 	margin-left: 41%;
-	margin-top: 3%;
+	margin-top: 5%;
 	padding: 2%;
 }
 
- 
+
+/*index content*/
 .myinfo {
   display: grid;
   grid-template: 150px / auto auto;
@@ -121,7 +119,7 @@ section.hamb{
   width:50%;}
 
 
-
+/*portfolio content*/
 .portfolio{
 	background-color: #361500;
 	display: grid;
@@ -148,27 +146,19 @@ section.hamb{
   height: 150px;
 }
 
-.imgabt {
+.imgabt h5 {
   padding: 10px;
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
+/*contact content*/
 .contact {
   width: 80%;
   margin: auto;
   max-width: 50%;
   padding: 50px;
-  background-color: #395B64; 
-  opacity: 0.8;
+  background: #395B64; 
+   
 
 }
 
@@ -192,15 +182,18 @@ textarea {
   padding: 20px;
   width: 70%;
   border: 1px solid rebeccapurple;
-  font-size: 20px; }
+  font-size: 20px;
+  color: blue; }
 
 input{
 	width: 50%;
 	height: 20%;
 	font-size: 25px;
+	color: blue;
 }
  
 .button {
+	color: white;
   width: auto;
   margin-top: 30px;
   background: forestgreen;
@@ -213,22 +206,72 @@ input{
   }
 
 
-
+/*blog content*/
 .blog{	
-  
+	 background-color: #7952B3;  
   width: 90%;
   margin: auto;
 
 }
+.blog h2{	
+	 padding-top: 5px;
+	  text-align: center;
+	  padding-bottom: 5px;
+
+}
 .daily-exp{
-  background-color: #7952B3;
   margin: auto;
   width: 80%;
   font-size: 170%;
   column-count: 3;
 }
 
+/*Sitereport content*/
+.sitereport{
+	background-color: ;
+	background-color: #361500;
+}
+.sitereport p{
+	font-size: 28px;
+	width: 95%;
+  margin: auto;
+  padding-bottom: 15px;
+	 
+}
+.sitereport h2{
+	 padding-left: 39%;
+	 margin-top: 40px;
+	 margin-bottom: 40px;
+	 
+}
+.site-img{
+	display: grid;
+	grid-template-columns: auto auto;
 
+}
+
+.image {
+  border-radius: 15px;
+  width: 68%;
+  height: 58%;
+  margin: 15px;
+}
+
+.image img {
+border-radius: 15px;
+    width: 113%;
+    height: 343px;
+}
+
+.imagebt {
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+/*Footer design*/
  
 footer{
 	text-align: center;
@@ -238,22 +281,21 @@ footer{
 	margin-top: 3px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/*Responsive query for all content*/
 @media only screen and (max-width: 800px){
+
+	*{
+
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+	 text-decoration: none;
+	 color: white;
+	}
 	body{
 		width: 99%;
 	}
-	 
+
 	section.logo{
 	font-size: 30px;
 	padding-left: 20px;
@@ -271,17 +313,14 @@ footer{
 	font-size: 15px;
 	}
 
-	section.hamb{
-	display: block;
-	}
+	 
 
 	nav ul{
-	position: fixed;
 	width: 100%;
 	height: 55%;
 	display: block;
 	top: 50px;
-	left: -110%;
+	left:  0%;
 	background: blue;
 	text-align: center;
 	transition: all .5s;
@@ -297,16 +336,39 @@ footer{
 	background: none;
 	color: white;
 	}
-	 
-	.hamb:checked {
-  	left: 0px;
-	}
 
-	.toggle:checked {
-  	left: 0px;
-	}
+	.checkbtn{
+    display: block;
+    float: right;
+    margin-right: 40px;
+    line-height: 20px;
+}
+.navbar{
+	 	text-align: left;
+		margin-top: 20px;
+    position: fixed;
+    height: 100%;
+    width: 60%;        
+    left: -90%;
+    background-color: blue;    
+    display: flex;
+    flex-direction: column;
+    transition: all .10s;
+}
+.navbar li{
+    display: block;
+  
+}
+#check:checked ~ .navbar{
+	position: fixed;
+    left:  0;
 
+}
 	
+
+
+
+
 
 
 
@@ -362,7 +424,7 @@ footer{
 .portfolio{
 	background-color: #361500;
 	display: grid;	 
-	height: 350px;
+	height: 250px;
 }
 
 
@@ -397,8 +459,20 @@ footer{
   margin: auto;
   width: 80%;
   font-size: 170%;
-  column-count: 1;
+  column-count: 2;
 }
 
  
 }
+
+
+/*Reference list
+Colorhunt.co. 2022. Color Palettes for Designers and Artists - Color Hunt. [online] Available at: <https://colorhunt.co/> [Accessed 5 March 2022].
+
+Dribbble.com. 2022. Dribbble - Discover the World’s Top Designers & Creative Professionals. [online] Available at: <https://dribbble.com/shots> [Accessed 5 March 2022].
+
+Youtube.com. 2022. [online] Available at: <https://www.youtube.com/watch?v=oLgtucwjVII&t=275s> [Accessed 5 March 2022].
+
+W3schools.com. 2022. W3Schools Free Online Web Tutorials. [online] Available at: <https://www.w3schools.com/> [Accessed 5 March 2022].
+
+ */
