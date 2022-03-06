@@ -163,7 +163,7 @@ nav ul li a:hover {
 }
 
 
-.contact h1 {
+.contact h2 {
     text-align: center;
      }
 
@@ -461,7 +461,7 @@ footer h4{
 }
 
  
-}
+/*Responsive query for all*/
 @media only screen and (max-width: 430px){
 	 
 
